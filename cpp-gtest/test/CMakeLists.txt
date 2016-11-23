@@ -7,7 +7,7 @@ SET(TEST_SRC
 	testUnit.cpp)
 
 SET(UNIT_UNDER_TEST_SRC
-	../unit.cpp)
+	../unit.cpp ../ast.cpp ../ast.h)
 
 SET(TEST_NAME ${PROJECT_NAME}-test)
 ADD_EXECUTABLE(${TEST_NAME}
